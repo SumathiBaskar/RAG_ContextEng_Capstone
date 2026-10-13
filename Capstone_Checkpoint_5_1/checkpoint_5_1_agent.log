@@ -1,0 +1,276 @@
+[2026-09-29T00:13:04] AGENTIC
+Q: What problem does SAT solver solve in real world ?
+A: The document says SAT solvers are used to help the numerical search "overcome local solutions" in "program synthesis problems," and that ReaS "combine[s] numerical optimization with SAT solving to synthesize un-knowns in a program that involves discrete and floating-point computation."
+
+It also says this combination is effective for "problems that involve both discrete and floating-point computation" and for "program synthesis problems" involving "discrete structure from examples, such as neural Turing machines" and similar systems.
+
+So, based on the document, the real-world problem mentioned is **program synthesis for hybrid systems with both discrete and floating-point computations**, including cases like **neural Turing machines** and other complex real-world problems.
+------------------------------------------------------------------------
+[2026-09-29T00:16:01] AGENTIC
+Q: What are the different benchmarks used to test REAS ?
+A: The document mentions these benchmarks used to test REAS:
+
+- **Parallel parking**
+- **Lane changing**
+- **Thermostat**
+- **Numerical it-erations** (shown in the table as “#N” and “#R” for numerically iterative benchmarks)
+- **End-to-end differentiability** experiments, including:
+  - **Point car**
+  - **Mixed integer approaches** / **lane change benchmark** comparisons
+  - **QuadLanding**
+  - **QuadObstacle**
+  - **Z3 on the thermostat benchmark**
+
+The clearest benchmark names explicitly listed are:
+
+> “Parallel parking”  
+> “lane changing benchmark”  
+> “Thermostat”  
+> “Numerical iterations”  
+> “Figure 13 … ParallelPark QuadLanding QuadObstacle thermostat”
+
+If you want, I can also separate which ones are the main benchmarks versus comparison experiments.
+------------------------------------------------------------------------
+[2026-09-29T00:20:41] AGENTIC
+Q: What are the different benchmarks used to test REAS ?
+A: The documents mention two kinds of benchmarks used to test REAS:
+
+1. **Parallel parking benchmark** — “This benchmark synthesizes a controller to parallel park a car.”
+2. **Thermostat benchmark** — “The final benchmark is to synthesize the thermostat controller described in [20].”
+
+They also mention **lane changing** as a related benchmark/template: “The template for this benchmark is similar to the template for the lane changing benchmark.” However, the clearest benchmarks explicitly used to test REAS in the provided text are **parallel parking** and **thermostat**.
+------------------------------------------------------------------------
+[2026-09-29T00:25:07] AGENTIC
+Q: What were the real world problems solved by REAS ?
+A: The document says REaS was evaluated on “**5 case-studies involving hybrid systems**” and that it combines numerical optimization with SAT solving to synthesize programs “that involve **discrete and floating-point computation**.”
+
+It further says the approach was shown effective for “**problems that involve both discrete and floating-point computation**,” but it does **not name specific real-world problems** solved by REaS.
+
+So, based on the provided document, the answer is: **the document does not specify the exact real-world problems; it only says REaS was applied to five hybrid-system case studies involving discrete and floating-point computation.**
+------------------------------------------------------------------------
+[2026-09-29T19:34:39] AGENTIC
+Q: What are the different benchmarks used to test REAS?
+A: The document says REAS is tested on several benchmarks, including:
+
+- **Parallel parking** — “Parallel parking”
+- **Lane changing** — “the lane changing benchmark”
+- **Thermostat** — “the thermostat benchmark”
+- **N** and **R** benchmarks — “The #N and #R columns”
+- **Z3** thermostat benchmark — “we also ran Z3 on the thermostat benchmark”
+
+It also explicitly mentions a benchmark suite that includes:
+- **ParallelPark**
+- **QuadLanding**
+- **QuadObstacle**
+- **thermostat**
+
+So, from the document, the benchmarks used to test REAS are **parallel parking, lane changing, thermostat, ParallelPark, QuadLanding, and QuadObstacle**.
+------------------------------------------------------------------------
+[2026-09-29T20:08:43] AGENTIC
+Q: Give me the list of all research paper names that talks about multi agent communication
+A: The documents only contain one research paper title that explicitly talks about multi-agent communication:
+
+- **“Neurosymbolic Transformers for Multi-Agent Communication”**
+
+I don’t see any other research paper names in the provided documents that are clearly about multi-agent communication.
+------------------------------------------------------------------------
+[2026-09-29T20:11:09] AGENTIC
+Q: Give me the list of all research paper names that is related to program synthesis
+A: From the documents, the research paper names related to program synthesis are:
+
+- **Tracking the Flow of Ideas through the Programming Languages Literature**
+- **Formal Methods in System Design**
+- **NA TO science for peace and security series, D: information and communication Security**
+- **Search-based program synthesis**
+- **Application of recursive arithmetic to the problem of circuit synthesis**
+- **An empirical study of adaptive concretization for parallel program synthesis**
+- **Toward automatic program synthesis**
+- **Alloy*: a general-purpose higher-order relational constraint solver**
+- **A framework for the synthesis of reactive modules**
+- **Refutation-based synthesis in SMT**
+
+The documents also mention that older papers may be difficult to find via conventional search, and that the topic is “program synthesis” or related to it.
+------------------------------------------------------------------------
+[2026-09-30T14:05:18] AGENTIC
+Q: Give me the list of all research paper names that is related to program synthesis
+A: The documents mention these research paper names related to program synthesis:
+
+- **Tracking the Flow of Ideas through the Programming Languages Literature**
+- **The papers CDRS, SEMC, TAL**
+- **The PCC paper**
+- **Formal Methods in System Design (2021): 58:469–470**
+- **NA TO science for peace and security series, D: information and communication Security**
+- **Search-based program synthesis**
+- **Application of recursive arithmetic to the problem of circuit synthesis**
+- **An empirical study of adaptive concretization for parallel program synthesis**
+- **Toward automatic program synthesis**
+- **Alloy*: a general-purpose higher-order relational constraint solver**
+- **A framework for the synthesis of reactive modules**
+- **Refutation-based synthesis in SMT.**
+- **Publisher’s Note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.**
+
+If you want, I can also extract just the clearly relevant program-synthesis paper titles and remove items that look like citations or unrelated references.
+------------------------------------------------------------------------
+[2026-09-30T14:09:02] AGENTIC
+Q: Give me the list of all research paper names that is related to program synthesis
+A: The documents only contain a few research paper titles related to program synthesis. From the provided text, I can identify these paper names:
+
+- “Tracking the Flow of Ideas through the Programming Languages Literature”
+- “Formal Methods in System Design” (2021)
+- “NA TO science for peace and security series, D: Information and Communication Security”
+- “Search-based program synthesis”
+- “Application of recursive arithmetic to the problem of circuit synthesis”
+- “An empirical study of adaptive concretization for parallel program synthesis”
+- “Towards automatic program synthesis”
+- “Alloy*: a general-purpose higher-order relational constraint solver”
+- “A framework for the synthesis of reactive modules”
+- “Refutation-based synthesis in SMT”
+
+If you want, I can also separate which of these are clearly about program synthesis versus only mentioned in the references.
+------------------------------------------------------------------------
+[2026-09-30T14:21:53] AGENTIC
+Q: Give me the list of all research paper names that is related to program synthesis
+A: The documents mention these research paper names related to program synthesis:
+
+- **Tracking the Flow of Ideas through the Programming Languages Literature**
+- **Formal Methods in System Design (2021) 58:469–470**  
+- **NA TO science for peace and security series, D: information and communication Security**
+- **Search-based program synthesis**
+- **Application of recursive arithmetic to the problem of circuit synthesis**
+- **An empirical study of adaptive concretization for parallel program synthesis**
+- **Toward automatic program synthesis**
+- **Alloy*: a general-purpose higher-order relational constraint solver**
+- **A framework for the synthesis of reactive modules**
+- **Refutation-based synthesis in SMT**
+
+The documents also say there are “**the twenty most related papers from PLDI and POPL**,” but only some specific paper titles are explicitly listed here.
+------------------------------------------------------------------------
+[2026-09-30T14:30:52] AGENTIC
+Q: Give me the list of all research paper names that is related to program synthesis
+A: The documents contain several research paper titles related to program synthesis. The ones explicitly mentioned are:
+
+- **Tracking the Flow of Ideas through the Programming Languages Literature**
+- **The papers CDRS, SEMC, TAL have low medians and third quartiles, indicating that the bulk of their related is relatively close to the paper.**
+- **We included the PCC paper to illustrate that not all papers in our dataset have particularly useful models.**
+- **On his first test of the system, David Walker put in some of his collaborators’ recent work – Osera and Zdancewic’s Type-and-Example-Directed Program Synthesis [14] – and found a related paper by Nix entitled Editing by example (POPL 1984) that Osera and Zdancewic were unaware of [13].**
+- **Michael Greenberg put in a recent networking workshop paper [8] and found some 10 Google keyword searches including “program synthesis from examples” and “synthesizing string trans-formations from examples” do not display this result in the first three pages of links returned. More recent research floats to the top.**
+- **Formal Methods in System Design (2021)**
+- **NA TO science for peace and security series, D: information and communication Security.**
+- **Search-based program synthesis. Commun ACM 61(12):84–93**
+- **Application of recursive arithmetic to the problem of circuit synthesis.**
+- **An empirical study of adaptive concretization for parallel program synthesis.**
+- **Towards automatic program synthesis.**
+- **Alloy*: a general-purpose higher-order relational constraint solver.**
+- **A framework for the synthesis of reactive modules.**
+- **Refutation-based synthesis in SMT.**
+
+If you want, I can also try to filter this down to only titles that are clearly about program synthesis rather than broader related work.
+------------------------------------------------------------------------
+[2026-09-30T14:40:52] AGENTIC
+Q: Give me the list of all research paper names that is related to program synthesis
+A: From the provided documents, the research paper names related to program synthesis are:
+
+- **Tracking the Flow of Ideas through the Programming Languages Literature**
+- **Formal Methods in System Design**
+- **NA TO science for peace and security series, D: information and communication Security**
+- **Search-based program synthesis**
+- **Application of recursive arithmetic to the problem of circuit synthesis**
+- **An empirical study of adaptive concretization for parallel program synthesis**
+- **Toward automatic program synthesis**
+- **Alloy*: a general-purpose higher-order relational constraint solver**
+- **A framework for the synthesis of reactive modules**
+- **Refutation-based synthesis in SMT**
+
+A couple of notes:
+- The documents also mention **PCC** as a paper “related work” and “one such paper,” but they do not clearly give its full title here.
+- The source text says the tool found “the twenty most related papers from PLDI and POPL,” but only the papers explicitly named in the provided documents can be listed.
+------------------------------------------------------------------------
+[2026-09-30T14:51:26] AGENTIC
+Q: Give me the list of all research paper names that is related to program synthesis
+A: The documents mention several research papers related to program synthesis. The paper titles/names visible in the document are:
+
+- **Tracking the Flow of Ideas through the Programming Languages Literature**
+- **Formal Methods in System Design (2021) 58:469–470**
+- **NA TO science for peace and security series, D: information and communication Security**  
+- **Search-based program synthesis**
+- **Application of recursive arithmetic to the problem of circuit synthesis**
+- **An empirical study of adaptive concretization for parallel program synthesis**
+- **Toward automatic program synthesis**
+- **Alloy*: a general-purpose higher-order relational constraint solver**
+- **A framework for the synthesis of reactive modules**
+- **Refutation-based synthesis in SMT**
+
+If you want, I can also narrow this to just the items that are explicitly described as program synthesis papers in the text.
+------------------------------------------------------------------------
+[2026-09-30T14:58:35] AGENTIC
+Q: Give me the list of all research paper names that is related to program synthesis
+A: From the document, the research paper names related to program synthesis are:
+
+- **Tracking the Flow of Ideas through the Programming Languages Literature**
+- **Formal Methods in System Design**
+- **NA TO science for peace and security series, D: information and communication Security**
+- **Search-based program synthesis**
+- **Application of recursive arithmetic to the problem of circuit synthesis**
+- **An empirical study of adaptive concretization for parallel program synthesis**
+- **Toward automatic program synthesis**
+- **Alloy*: a general-purpose higher-order relational constraint solver**
+- **A framework for the synthesis of reactive modules**
+- **Refutation-based synthesis in SMT**
+
+The document explicitly says: “**We’ve implemented a prototype tool for finding related work …**” and includes these as related papers in the listed corpus.
+------------------------------------------------------------------------
+[2026-09-30T15:00:47] AGENTIC
+Q: Give me the list of all research paper names that is related to program synthesis
+A: The documents do contain a list of research papers related to program synthesis. The paper names I can identify are:
+
+- **Tracking the Flow of Ideas through the Programming Languages Literature**
+- **Formal Methods in System Design (2021)** — cited as a venue, not a paper title in this excerpt
+- **NA TO science for peace and security series, D: information and communication Security** — not a paper title
+- **Search-based program synthesis**
+- **Application of recursive arithmetic to the problem of circuit synthesis**
+- **An empirical study of adaptive concretization for parallel program synthesis**
+- **Toward automatic program synthesis**
+- **A framework for the synthesis of reactive modules**
+- **Alloy*: a general-purpose higher-order relational constraint solver**
+- **A framework for the synthesis of reactive modules**
+- **Refutation-based synthesis in SMT**
+
+One entry is clearly referenced but partially obscured/unclear:
+- **Editing by example (POPL 1984)**
+
+The documents also mention related work and citations, but they do not explicitly provide a clean, complete “all research paper names” list beyond these titles.
+------------------------------------------------------------------------
+[2026-09-30T15:04:16] AGENTIC
+Q: Give me the list of all research paper names that is related to program synthesis
+A: The documents contain several research paper names related to program synthesis. From the provided text, the paper names are:
+
+- **Tracking the Flow of Ideas through the Programming Languages Literature**
+- **Figure 9 Are citations closer in topic space than random papers?**
+- **Formal Methods in System Design (2021) 58:469–470**  
+- **NA TO science for peace and security series, D: information and communication Security. Amsterdam, IOS Press, pp 1–25**
+- **Search-based program synthesis**
+- **Application of recursive arithmetic to the problem of circuit synthesis**
+- **An empirical study of adaptive concretization for parallel program synthesis**
+- **Towards automatic program synthesis**
+- **Alloy*: a general-purpose higher-order relational constraint solver**
+- **A framework for the synthesis of reactive modules**
+- **Refutation-based synthesis in SMT**
+
+Note: The document text is noisy and some entries appear to be citations or book/chapter references rather than clear paper titles. If you want, I can also extract only the titles that explicitly mention “program synthesis.”
+------------------------------------------------------------------------
+[2026-09-30T19:19:31] AGENTIC
+Q: Give me the list of all research paper names that is related to program synthesis
+A: From the provided document, the research paper names related to program synthesis are:
+
+- **Editing by example**  
+- **Search-based program synthesis**  
+- **Application of recursive arithmetic to the problem of circuit synthesis**  
+- **An empirical study of adaptive concretization for parallel program synthesis**  
+- **Towards automatic program synthesis**  
+- **Alloy*: a general-purpose higher-order relational constraint solver**  
+- **A framework for the synthesis of reactive modules**  
+- **Refutation-based synthesis in SMT**  
+- **Formally methods in system design**
+
+The document also says: “we will identify the twenty most related papers from PLDI and POPL,” but it does not provide any more clearly labeled program-synthesis-related paper names beyond the citations listed above.
+------------------------------------------------------------------------
