@@ -31,14 +31,14 @@ Activating the python environment:
     source venv/bin/activate
 
 Core packages installation:
-    Type  pip install dotenv
-    Type  pip install langchain_core
-    Type  pip install langchain_openai
-    Type  pip install langchain_chroma
-    Type  pip install langgraph
-    Type  pip install langchain_text_splitters
-    Type  pip install rank_bm25
-    Type  pip install pypdf
+    Type  python3 install dotenv
+    Type  python3 install langchain_core
+    Type  python3 install langchain_openai
+    Type  python3 install langchain_chroma
+    Type  python3 install langgraph
+    Type  python3 install langchain_text_splitters
+    Type  python3 install rank_bm25
+    Type  python3 install pypdf
 
 
 Run Checkpoint:
