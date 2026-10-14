@@ -32,15 +32,7 @@ Activating the python environment:
     source venv/bin/activate
 
 Core packages installation:
-    Type  pip install dotenv
-    Type  pip install langchain_core
-    Type  pip install langchain_openai
-    Type  pip install langchain_chroma
-    Type  pip install langgraph
-    Type  pip install langchain_text_splitters
-    Type  pip install rank_bm25
-    Type  pip install pypdf
-
+    python3 install -r requirements.txt
 
 Run Checkpoint:
    Create a folder named chroma_db within respective capstone folder
