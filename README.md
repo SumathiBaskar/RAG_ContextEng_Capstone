@@ -42,6 +42,8 @@ Core packages installation:
 
 
 Run Checkpoint:
+   Create a folder named chroma_db within respective capstone folder
+   
    For capstone 1 through 5, cd into the respective capstone checkpoint folder and then type 
    python3 Solution.py
 
